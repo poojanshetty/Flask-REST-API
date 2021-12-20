@@ -22,8 +22,8 @@ flask run
 |GET|http://[hostname]/customers|Retrieve list of customers|
 |GET|http://[hostname]/customers/[cust_id]|Retrieve a customer|
 |POST|http://[hostname]/customers|Create a new customer|
-|PUT or PATCH|http://[hostname]/[cust_id]/customers|Update an existing customer|
-|DELETE|http://[hostname]/[cust_id]/customers|Delete a customer|
+|PUT or PATCH|http://[hostname]/customers/[cust_id]|Update an existing customer|
+|DELETE|http://[hostname]/customers/[cust_id]|Delete a customer|
 
 ## Testing API requests
 
