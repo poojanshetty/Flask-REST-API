@@ -39,6 +39,7 @@ def get_customers():
     output = []
     for customer in customers:
         customer_data = {
+            'id': customer.id,
             'name': customer.name,
             'birthdate': customer.birthdate,
             'sex': customer.sex,
@@ -59,6 +60,7 @@ def get_customer(cust_id):
     if Customer.query.get(cust_id):
         customer = Customer.query.get(cust_id)
         return {
+            'id': customer.id,
             'name': customer.name,
             'birthdate': customer.birthdate,
             'sex': customer.sex,
