@@ -1,4 +1,4 @@
-# SampleAPIProject
+# Assignment 1 (Flask API)
 
 ## Setting up the database
 
@@ -33,3 +33,8 @@ requests.get('http://127.0.0.1:5000/customers').json()  # GET list of all custom
 ```
 
 All other requests can be tested using `call_api.py` as a reference.
+
+
+## References
+- https://www.youtube.com/watch?v=qbLc5a9jdXo
+- https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
